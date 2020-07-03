@@ -1,0 +1,8 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var config = {
+    api_base_url: 'https://tea.trustai.cn/trust/high/additional/api/v1',
+    toast_duration: 1500,
+};
+exports.config = config;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJpbmRleC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUtBLElBQU0sTUFBTSxHQUFhO0lBQ3ZCLFlBQVksRUFBRSxxREFBcUQ7SUFDbkUsY0FBYyxFQUFFLElBQUk7Q0FDckIsQ0FBQTtBQUVRLHdCQUFNIiwic291cmNlc0NvbnRlbnQiOlsiaW50ZXJmYWNlIEljb25maWcge1xyXG4gIGFwaV9iYXNlX3VybDogc3RyaW5nLFxyXG4gIHRvYXN0X2R1cmF0aW9uOiBudW1iZXIsXHJcbn1cclxuXHJcbmNvbnN0IGNvbmZpZzogSWNvbmZpZyA9ICB7XHJcbiAgYXBpX2Jhc2VfdXJsOiAnaHR0cHM6Ly90ZWEudHJ1c3RhaS5jbi90cnVzdC9oaWdoL2FkZGl0aW9uYWwvYXBpL3YxJyxcclxuICB0b2FzdF9kdXJhdGlvbjogMTUwMCxcclxufVxyXG5cclxuZXhwb3J0IHsgY29uZmlnIH0iXX0=

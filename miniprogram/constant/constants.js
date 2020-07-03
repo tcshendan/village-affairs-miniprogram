@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var CONSTANTS = {
+    LOCALKEY: {
+        USER: 'userInfo',
+        LOGIN: 'login',
+        SESSION: 'session',
+    }
+};
+exports.CONSTANTS = CONSTANTS;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY29uc3RhbnRzLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiY29uc3RhbnRzLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBQUEsSUFBTSxTQUFTLEdBQUc7SUFDaEIsUUFBUSxFQUFFO1FBQ1IsSUFBSSxFQUFFLFVBQVU7UUFDaEIsS0FBSyxFQUFFLE9BQU87UUFDZCxPQUFPLEVBQUUsU0FBUztLQUNuQjtDQUNGLENBQUE7QUFFUSw4QkFBUyIsInNvdXJjZXNDb250ZW50IjpbImNvbnN0IENPTlNUQU5UUyA9IHtcclxuICBMT0NBTEtFWToge1xyXG4gICAgVVNFUjogJ3VzZXJJbmZvJyxcclxuICAgIExPR0lOOiAnbG9naW4nLFxyXG4gICAgU0VTU0lPTjogJ3Nlc3Npb24nLFxyXG4gIH1cclxufVxyXG5cclxuZXhwb3J0IHsgQ09OU1RBTlRTIH0iXX0=

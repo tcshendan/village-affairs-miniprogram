@@ -1,0 +1,46 @@
+<!--miniprogram/pages/home/index.wxml-->
+<view class="home_container">
+  <view class="list_container" style="height: 100%;">
+    <view class="home_banner">
+      <image src="/images/home/img_banner.jpg" />
+    </view>
+    <view class="home_wbine" style="position: relative; margin-top: -40rpx; z-index: 999;">
+      <view class="home_nbine">
+        <view class="grids">
+          <view class="grid-item">
+            <image src="/images/home/gonggao.png" />
+          </view>
+          <view class="grid-item">
+            <image src="/images/home/baogao.png" />
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="home_wbine" style="margin-top: 40rpx; margin-bottom: 40rpx;">
+      <view class="home_nbine">
+        <view class="grids bottom">
+          <view class="grid-item">
+            <image src="/images/home/grid-item-1.png" />
+          </view>
+          <view class="grid-item">
+            <image src="/images/home/grid-item-2.png" />
+          </view>
+          <view class="grid-item">
+            <image src="/images/home/grid-item-3.png" />
+          </view>
+        </view>
+        <view class="grids bottom">
+          <view class="grid-item">
+            <image src="/images/home/grid-item-4.png" />
+          </view>
+          <view class="grid-item">
+            <image src="/images/home/grid-item-5.png" />
+          </view>
+          <view class="grid-item">
+            <image src="/images/home/grid-item-6.png" />
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
