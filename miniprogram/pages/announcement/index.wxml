@@ -1,0 +1,30 @@
+<!--miniprogram/pages/announcement/index.wxml-->
+<view class="list_container">
+  <view class="list_card" bindtap="onDetail">
+    <view class="list_title">
+      <text>关于建立村级限额以下工程施工单位备选库的 公告</text>
+    </view>
+    <view class="list_info">
+      <text>公告公示</text>
+      <text>2020-04-15</text>
+    </view>
+  </view>
+  <view class="list_card">
+    <view class="list_title">
+      <text>关于杭宁高速5号桥涵洞降坡施工通知</text>
+    </view>
+    <view class="list_info">
+      <text>公告公示</text>
+      <text>2020-04-02</text>
+    </view>
+  </view>
+  <view class="list_card">
+    <view class="list_title">
+      <text>青草坞村2020年有关重大事项征求意见 公告</text>
+    </view>
+    <view class="list_info">
+      <text>公告公示</text>
+      <text>2020-03-23</text>
+    </view>
+  </view>
+</view>

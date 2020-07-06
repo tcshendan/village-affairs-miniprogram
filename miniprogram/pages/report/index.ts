@@ -1,23 +1,17 @@
-// index.ts
 import { ROUTES } from '../../constant/index'
 // 获取应用实例
 // const app = getApp<IAppOption>()
 
 Page({
   data: {
-
+    list: []
   },
   onLoad() {
     
   },
-  onGoToAnnouncement() {
+  onDetail() {
     wx.navigateTo({
-      url: ROUTES.ANNOUNCEMENT_PAGE
-    })
-  },
-  onGoToReport() {
-    wx.navigateTo({
-      url: ROUTES.REPORT_PAGE
+      url: ROUTES.DETAIL_PAGE
     })
   }
 })

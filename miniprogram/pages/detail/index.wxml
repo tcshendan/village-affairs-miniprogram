@@ -1,0 +1,60 @@
+<!--miniprogram/pages/detail/index.wxml-->
+<view class="detail_container">
+	<view class="header_container">
+		<view class="header_title">关于建立村级限额以下工程施工单位备选库的 公告</view>
+		<view class="header_info">
+			<text>公告公示</text>
+			<text>2020-04-15</text>
+		</view>
+	</view>
+	<view class="cont_container">
+		<view class="MsoNormal" style="text-indent: 32.0000pt; mso-char-indent-count: 2.0000; layout-grid-mode: char; line-height: 28.0000pt; mso-line-height-rule: exactly;">
+			<text style="font-size: 14pt;">
+        <text style="font-family: 仿宋_GB2312;"><text style="font-family: 仿宋_GB2312;">为解决村级限额以下工程层层转包、费用虚增的问题，根据湖州市《关于全面推行村级事务精细化管理做细做实清廉乡村建设的实施方案》和长兴县《关于进一步加强我县限额以下工程建设项目发包规范管理的实施意见的通知》等文件精神，现就充分挖掘镇内可用资源，建立村级限额以下工程（</text>5-30万）施工单位备选库事宜公告如下。
+			</text>
+			</text>
+		</view>
+		<view class="MsoNormal" style="text-indent: 32.0000pt; mso-char-indent-count: 2.0000; layout-grid-mode: char; line-height: 28.0000pt; mso-line-height-rule: exactly;">
+			<text style="font-size: 14pt;">
+        <text style="font-family: 仿宋_GB2312;">
+          <text style="font-family: 仿宋_GB2312;">登记入库的条件：</text>
+			</text>
+			<text style="font-family: 仿宋_GB2312;">
+          <text style="font-family: 仿宋_GB2312;">原则上是指注册在本镇范围内的单位或个体工商户；不得有涉黑涉恶、违反征信等问题。</text>
+			</text>
+			</text>
+		</view>
+		<view class="MsoNormal" style="text-indent: 32.0000pt; mso-char-indent-count: 2.0000; layout-grid-mode: char; line-height: 28.0000pt; mso-line-height-rule: exactly;">
+      <text style="font-size: 14pt;">
+        <text style="font-family: 仿宋_GB2312;">
+          <text style="font-family: 仿宋_GB2312;">凡有意向登记入库的，</text>
+        </text>
+        <text style="font-family: 仿宋_GB2312;">
+          <text style="font-family: 仿宋_GB2312;">自公告之日起</text>10内</text><text style="font-family: 仿宋_GB2312;"><text style="font-family: 仿宋_GB2312;">到所在行政村报名，提供</text>
+        </text>
+        <text style="font-family: 仿宋_GB2312;">
+          <text style="font-family: 仿宋_GB2312;">注册登记资料、</text>
+        </text>
+        <text style="font-family: 仿宋_GB2312;">
+          <text style="font-family: 仿宋_GB2312;">近</text>3年内承建的相关工程项目证明材料、施工单位法定代表人或者施工自然人的征信记录等）；所在行政村对报名的单位及</text><text style="font-family: 仿宋_GB2312;"><text style="font-family: 仿宋_GB2312;">个体工商户</text>
+        </text>
+        <text style="font-family: 仿宋_GB2312;">
+          <text style="font-family: 仿宋_GB2312;">的入库条件进行初核，提出初核意见盖章后报镇</text>
+        </text>
+        <text style="font-family: 仿宋_GB2312;">
+          <text style="font-family: 仿宋_GB2312;">公共资源交易</text>
+        </text>
+        <text style="font-family: 仿宋_GB2312;">
+          <text style="font-family: 仿宋_GB2312;">中心。</text>
+        </text>
+      </text>
+    </view>
+    <view class="MsoNormal" style="text-indent: 32.0000pt; mso-char-indent-count: 2.0000; layout-grid-mode: char; line-height: 28.0000pt; mso-line-height-rule: exactly;"><text style="font-size: 14pt;"><text style="font-family: 仿宋_GB2312;"><text style="font-family: 仿宋_GB2312;">镇</text></text><text style="font-family: 仿宋_GB2312;"><text style="font-family: 仿宋_GB2312;">公共资源交易</text></text><text style="font-family: 仿宋_GB2312;"><text style="font-family: 仿宋_GB2312;">中心将</text></text><text style="font-family: 仿宋_GB2312;"><text style="font-family: 仿宋_GB2312;">会同镇纪委、市场监管、城建、金融单位等部门对各行政村上报的</text></text><text style="font-family: 仿宋_GB2312;"><text style="font-family: 仿宋_GB2312;">初核名单进行</text></text><text style="font-family: 仿宋_GB2312;"><text style="font-family: 仿宋_GB2312;">联审，对符合要求的方可入选工程施工单位备选库。</text></text></text></view>
+    <view class="MsoNormal" style="text-indent: 32.0000pt; mso-char-indent-count: 2.0000; layout-grid-mode: char; line-height: 28.0000pt; mso-line-height-rule: exactly;"><text style="font-size: 14pt;"><text style="font-family: 仿宋_GB2312;"><text style="font-family: 仿宋_GB2312;">截止时间：</text>2020年4月24日</text></text></view>
+    <view class="MsoNormal" style="text-indent: 32.0000pt; mso-char-indent-count: 2.0000; layout-grid-mode: char; line-height: 28.0000pt; mso-line-height-rule: exactly;"><text style="font-size: 14pt;"><text style="font-family: 仿宋_GB2312;"><text style="font-family: 仿宋_GB2312;">联系人：商金宝</text> <text style="font-family: 仿宋_GB2312;">电话：</text>18969279637 政府网：669585</text></text></view>
+    <view class="MsoNormal" style="text-indent: 32.0000pt; mso-char-indent-count: 2.0000; layout-grid-mode: char; line-height: 28.0000pt; mso-line-height-rule: exactly;"><text style="font-size: 14pt;"><text style="font-family: 仿宋_GB2312;"><text style="font-family: 仿宋_GB2312;">特此公告！</text></text></text></view>
+    <view class="MsoNormal" style="text-indent: 32.0000pt; mso-char-indent-count: 2.0000; layout-grid-mode: char; line-height: 28.0000pt; mso-line-height-rule: exactly;"><text decode="true">&nbsp;</text></view>
+    <view class="p" style="margin-top: 0.0000pt; margin-bottom: 0.0000pt; mso-pagination: widow-orphan; text-align: right; line-height: 28.0000pt; mso-line-height-rule: exactly;" align="right"><text style="font-size: 14pt;"><text style="font-family: 仿宋_GB2312;">2020<text style="font-family: 仿宋_GB2312;">年</text><text style="font-family: Times New Roman;">4</text><text style="font-family: 仿宋_GB2312;">月</text><text style="font-family: Times New Roman;">15</text><text style="font-family: 仿宋_GB2312;">日</text></text></text></view>
+    <view class="p" style="margin-top: 0.0000pt; margin-bottom: 0.0000pt; mso-pagination: widow-orphan; text-align: right; line-height: 28.0000pt; mso-line-height-rule: exactly;" align="right"><text style="font-family: 仿宋_GB2312; font-size: 14pt;"><text style="font-family: 仿宋_GB2312;">李家巷镇人民政府</text></text></view>
+	</view>
+</view>

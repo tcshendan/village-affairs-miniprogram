@@ -1,0 +1,38 @@
+/* miniprogram/pages/report/index.wxss */
+.list_container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #eceff0;
+  box-sizing: border-box;
+}
+
+.list_card {
+  background-color: #fff;
+  padding: 20rpx 40rpx;
+  margin-bottom: 30rpx;
+  cursor: pointer;
+}
+
+.list_title {
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.list_title text {
+  font-size: 32rpx;
+  font-weight: 700;
+  color: #666;
+  word-break: break-all;
+}
+
+.list_info {
+  margin: 20rpx 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24rpx;
+  color: #999;
+}

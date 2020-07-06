@@ -1,0 +1,13 @@
+<!--miniprogram/pages/report/index.wxml-->
+<view class="list_container">
+  <view class="list_card" bindtap="onDetail">
+    <view class="list_title">
+      <text>2020年度青草坞村村干部目标承诺</text>
+    </view>
+    <view class="list_info">
+      <text>向您报告</text>
+      <text>2020-03-23</text>
+    </view>
+  </view>
+</view>
+

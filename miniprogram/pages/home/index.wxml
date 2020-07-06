@@ -7,10 +7,10 @@
     <view class="home_wbine" style="position: relative; margin-top: -40rpx; z-index: 999;">
       <view class="home_nbine">
         <view class="grids">
-          <view class="grid-item">
+          <view class="grid-item" bindtap="onGoToAnnouncement">
             <image src="/images/home/gonggao.png" />
           </view>
-          <view class="grid-item">
+          <view class="grid-item" bindtap="onGoToReport">
             <image src="/images/home/baogao.png" />
           </view>
         </view>
