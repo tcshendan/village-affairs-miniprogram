@@ -1,12 +1,4 @@
 /* miniprogram/pages/report/index.wxss */
-.list_container {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  background: #eceff0;
-  box-sizing: border-box;
-}
-
 .list_card {
   background-color: #fff;
   padding: 20rpx 40rpx;

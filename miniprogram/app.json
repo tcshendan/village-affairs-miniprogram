@@ -5,7 +5,10 @@
     "pages/logs/logs",
     "pages/announcement/index",
     "pages/detail/index",
-    "pages/report/index"
+    "pages/report/index",
+    "pages/situation/index",
+    "pages/engineering/index",
+    "pages/engineering_detail/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "#ac3d0a",
+  "navigationBarTitleText": "村情概况",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "cmp-swiper": "/components/cmp-swiper/index"
+  }
+}

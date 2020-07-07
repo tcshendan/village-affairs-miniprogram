@@ -1,0 +1,230 @@
+<!--miniprogram/page/engineering_detail/index.wxml-->
+<view class="detail_container">
+  <view class="detail_title">青草坞村社区卫生服务站维修工程</view>
+  <view class="cell_container">
+    <!-- 基本信息 -->
+    <view class="cells mgbtm">
+      <view class="cell">
+        <view class="cell_bd">
+          <view class="cell_label" style="width: 6em;">
+            <text class="m_title">基本信息</text>
+          </view>
+        </view>
+        <view class="cell_ft cell_primary">
+          <text class="m_text">2020-04-22 09:09:09</text>
+        </view>
+      </view>
+      <view class="cell">
+        <view class="cell_bd">
+          <view class="cell_label" style="width: 6em;">
+            <text class="c_title">工程名称</text>
+          </view>
+        </view>
+        <view class="cell_ft cell_primary">
+          <text class="m_text">青草坞村社区卫生服务站维修工程</text>
+        </view>
+      </view>
+      <view class="cell">
+        <view class="cell_bd">
+          <view class="cell_label" style="width: 6em;">
+            <text class="c_title">工程预算</text>
+          </view>
+        </view>
+        <view class="cell_ft cell_primary">
+          <text class="m_text">45000元</text>
+        </view>
+      </view>
+      <view class="cell">
+        <view class="cell_bd">
+          <view class="cell_label" style="width: 6em;">
+            <text class="c_title">工期</text>
+          </view>
+        </view>
+        <view class="cell_ft cell_primary">
+          <text class="m_text">30天</text>
+        </view>
+      </view>
+      <view class="cell">
+        <view class="cell_bd">
+          <view class="cell_label" style="width: 6em;">
+            <text class="c_title">建设内容</text>
+          </view>
+        </view>
+        <view class="cell_ft cell_primary">
+          <text class="m_text">青草坞村卫生站房顶换瓦、室内墙体粉刷涂料、瓷砖</text>
+        </view>
+      </view>
+      <view class="cell">
+        <view class="cell_bd">
+          <view class="cell_label" style="width: 6em;">
+            <text class="c_title">施工前照片</text>
+          </view>
+        </view>
+        <view class="cell_ft cell_primary">
+          <view class="images_list">
+            <view class="images_box">
+              <image src="/images/detail/sgq1.jpg" />
+            </view>
+            <view class="images_box">
+               <image src="/images/detail/sgq2.jpg" />
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="cell">
+        <view class="cell_bd">
+          <view class="cell_label" style="width: 6em;">
+            <text class="c_title">村负责人</text>
+          </view>
+        </view>
+        <view class="cell_ft cell_primary">
+          <text class="m_text">吴建伟</text>
+        </view>
+      </view>
+      <view class="cell">
+        <view class="cell_bd">
+          <view class="cell_label" style="width: 6em;">
+            <text class="c_title">联系电话</text>
+          </view>
+        </view>
+        <view class="cell_ft cell_primary">
+          <text class="m_text">13868252768</text>
+        </view>
+      </view>
+    </view>
+    <!-- 交易信息 -->
+    <view class="cells mgbtm">
+      <view class="cell">
+        <view class="cell_bd">
+          <view class="cell_label" style="width: 6em;">
+            <text class="m_title">交易信息</text>
+          </view>
+        </view>
+        <view class="cell_ft cell_primary">
+          <text class="m_text">2020-04-29 15:49:42</text>
+        </view>
+      </view>
+      <view class="cell">
+        <view class="cell_bd">
+          <view class="cell_label" style="width: 6em;">
+            <text class="c_title">承包人</text>
+          </view>
+        </view>
+        <view class="cell_ft cell_primary">
+          <text class="m_text">邓招直</text>
+        </view>
+      </view>
+      <view class="cell">
+        <view class="cell_bd">
+          <view class="cell_label" style="width: 6em;">
+            <text class="c_title">合同总价</text>
+          </view>
+        </view>
+        <view class="cell_ft cell_primary">
+          <text class="m_text">45000元</text>
+        </view>
+      </view>
+      <view class="cell">
+        <view class="cell_bd">
+          <view class="cell_label" style="width: 6em;">
+            <text class="c_title">合同期限</text>
+          </view>
+        </view>
+        <view class="cell_ft cell_primary">
+          <text class="m_text">2020-04-24到2020-07-23</text>
+        </view>
+      </view>
+    </view>
+    <!-- 施工信息 -->
+    <view class="cells mgbtm">
+      <view class="cell">
+        <view class="cell_bd">
+          <view class="cell_label" style="width: 6em;">
+            <text class="m_title">施工信息</text>
+          </view>
+        </view>
+        <view class="cell_ft cell_primary">
+          <text class="m_text"></text>
+        </view>
+      </view>
+      <view class="sgxx_container">
+        <view class="cell">
+          <view class="cell_bd">
+            <view class="cell_label" style="width: 6em;">
+              <text class="c_title">检查时间</text>
+            </view>
+          </view>
+          <view class="cell_ft cell_primary">
+            <text class="m_text">2020-05-06 14:35:20</text>
+          </view>
+        </view>
+        <view class="cell">
+          <view class="cell_bd">
+            <view class="cell_label" style="width: 6em;">
+              <text class="c_title">有无变更</text>
+            </view>
+          </view>
+          <view class="cell_ft cell_primary">
+            <text class="m_text">无</text>
+          </view>
+        </view>
+        <view class="cell">
+          <view class="cell_bd">
+            <view class="cell_label" style="width: 6em;">
+              <text class="c_title">现场照片</text>
+            </view>
+          </view>
+          <view class="cell_ft cell_primary">
+            <view class="images_list">
+              <view class="images_box">
+                <image src="/images/detail/xczp1.jpg" />
+              </view>
+              <view class="images_box">
+                <image src="/images/detail/xczp2.jpg" />
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="sgxx_container">
+        <view class="cell">
+          <view class="cell_bd">
+            <view class="cell_label" style="width: 6em;">
+              <text class="c_title">检查时间</text>
+            </view>
+          </view>
+          <view class="cell_ft cell_primary">
+            <text class="m_text">2020-04-29 16:05:58</text>
+          </view>
+        </view>
+        <view class="cell">
+          <view class="cell_bd">
+            <view class="cell_label" style="width: 6em;">
+              <text class="c_title">有无变更</text>
+            </view>
+          </view>
+          <view class="cell_ft cell_primary">
+            <text class="m_text">无</text>
+          </view>
+        </view>
+        <view class="cell">
+          <view class="cell_bd">
+            <view class="cell_label" style="width: 6em;">
+              <text class="c_title">现场照片</text>
+            </view>
+          </view>
+          <view class="cell_ft cell_primary">
+            <view class="images_list">
+              <view class="images_box">
+                <image src="/images/detail/xczp3.jpg" />
+              </view>
+              <view class="images_box">
+                <image src="/images/detail/xczp4.jpg" />
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

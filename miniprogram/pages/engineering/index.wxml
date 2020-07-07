@@ -1,0 +1,12 @@
+<!--miniprogram/pages/engineering/index.wxml-->
+<view class="list_container">
+  <view class="list_card" bindtap="onDetail">
+    <view class="list_title">
+      <text>青草坞村社区卫生服务站维修工程</text>
+    </view>
+    <view class="list_info">
+      <text>建设工程</text>
+      <text>2020-04-22 09:09:09</text>
+    </view>
+  </view>
+</view>

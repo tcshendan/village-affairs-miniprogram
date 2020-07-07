@@ -61,14 +61,7 @@
 		},
 		"miniprogram": {
 			"current": -1,
-			"list": [
-				{
-					"id": -1,
-					"name": "pages/announcement/index",
-					"pathName": "pages/announcement/index",
-					"scene": null
-				}
-			]
+			"list": []
 		}
 	}
 }

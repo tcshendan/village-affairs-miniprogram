@@ -1,0 +1,105 @@
+<!--miniprogram/pages/situation/index.wxml-->
+<view class="list_container">
+  <view class="back_white">
+    <!-- 轮播图 -->
+    <view class="swiper_container">
+      <cmp-swiper
+        swiperImages="{{swiperImages}}"
+        autoplay="{{autoplay}}"
+        interval="{{interval}}"
+        duration="{{duration}}"
+      />
+    </view>
+    <view class="desc">
+      青草坞村位于长兴县东南部，弁山西南麓，村域面积4.8平方公里，由长岭山、地洞寺、青草坞、凤山4个自然村组成，分为十个承包组，人口1512人、478户，党员95名。经济结构以工业为主。
+    </view>
+  </view>
+  <view class="back_white_bottom">
+    <view class="card_header">
+      <image src="/images/icon/card_header_img.png"></image>
+      <text>两委班子</text>
+    </view>
+    <view class="card_content">
+      <view class="flexbox flex_row">
+        <view class="flexbox_item lwbz_left" style="margin-left: 8px; flex: 0 0 33.3333%;">
+          <image class="card_content_img" src="/images/person/wushilong.jpg"></image>
+        </view>
+        <view class="flexbox_item lwbz_right" style="margin-left: 8px;">
+          <view class="lwbz_name">吴世龙</view>
+          <view class="lwbz_msg">党总支书记、村委会主任</view>
+          <view class="lwbz_msg">13957256868</view>
+        </view>
+      </view>
+      <view class="flexbox flex_row">
+        <view class="flexbox_item lwbz_left" style="margin-left: 8px; flex: 0 0 33.3333%;">
+          <image class="card_content_img" src="/images/person/chenjinzhao.jpg"></image>
+        </view>
+        <view class="flexbox_item lwbz_right" style="margin-left: 8px;">
+          <view class="lwbz_name">陈钦招</view>
+          <view class="lwbz_msg">总支委员、村监委主任</view>
+          <view class="lwbz_msg">13906823331</view>
+        </view>
+      </view>
+      <view class="flexbox flex_row">
+        <view class="flexbox_item lwbz_left" style="margin-left: 8px; flex: 0 0 33.3333%;">
+          <image class="card_content_img" src="/images/person/zhenglingling.jpg"></image>
+        </view>
+        <view class="flexbox_item lwbz_right" style="margin-left: 8px;">
+          <view class="lwbz_name">郑灵灵</view>
+          <view class="lwbz_msg">总支委员、妇联主席</view>
+          <view class="lwbz_msg">13868290098</view>
+        </view>
+      </view>
+      <view class="flexbox flex_row">
+        <view class="flexbox_item lwbz_left" style="margin-left: 8px; flex: 0 0 33.3333%;">
+          <image class="card_content_img" src="/images/person/chenwenqiang.jpg"></image>
+        </view>
+        <view class="flexbox_item lwbz_right" style="margin-left: 8px;">
+          <view class="lwbz_name">陈文强</view>
+          <view class="lwbz_msg">总支委员、治保主任、团支书</view>
+          <view class="lwbz_msg">18857269968</view>
+        </view>
+      </view>
+      <view class="flexbox flex_row">
+        <view class="flexbox_item lwbz_left" style="margin-left: 8px; flex: 0 0 33.3333%;">
+          <image class="card_content_img" src="/images/person/zhengshuzhong.jpg"></image>
+        </view>
+        <view class="flexbox_item lwbz_right" style="margin-left: 8px;">
+          <view class="lwbz_name">郑书忠</view>
+          <view class="lwbz_msg">党总支副书记</view>
+          <view class="lwbz_msg">13957259898</view>
+        </view>
+      </view>
+      <view class="flexbox flex_row">
+        <view class="flexbox_item lwbz_left" style="margin-left: 8px; flex: 0 0 33.3333%;">
+          <image class="card_content_img" src="/images/person/wujianwei.jpg"></image>
+        </view>
+        <view class="flexbox_item lwbz_right" style="margin-left: 8px;">
+          <view class="lwbz_name">吴建伟</view>
+          <view class="lwbz_msg">村委会委员</view>
+          <view class="lwbz_msg">13868252768</view>
+        </view>
+      </view>
+      <view class="flexbox flex_row">
+        <view class="flexbox_item lwbz_left" style="margin-left: 8px; flex: 0 0 33.3333%;">
+          <image class="card_content_img" src="/images/person/jinweiping.jpg"></image>
+        </view>
+        <view class="flexbox_item lwbz_right" style="margin-left: 8px;">
+          <view class="lwbz_name">金卫平</view>
+          <view class="lwbz_msg">镇党委委员、人武部部长、联村领导</view>
+          <view class="lwbz_msg">13732387555</view>
+        </view>
+      </view>
+      <view class="flexbox flex_row">
+        <view class="flexbox_item lwbz_left" style="margin-left: 8px; flex: 0 0 33.3333%;">
+          <image class="card_content_img" src="/images/person/yeguang.jpg"></image>
+        </view>
+        <view class="flexbox_item lwbz_right" style="margin-left: 8px;">
+          <view class="lwbz_name">叶广</view>
+          <view class="lwbz_msg">青草坞村片警</view>
+          <view class="lwbz_msg">13868275801</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

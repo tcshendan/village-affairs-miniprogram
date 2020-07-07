@@ -1,13 +1,4 @@
 /* miniprogram/pages/detail/index.wxss */
-.detail_container {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  background-color: #fff;
-  padding: 0 40rpx;
-  box-sizing: border-box;
-}
-
 .header_container {
   padding: 20rpx 0;
 }
@@ -34,7 +25,7 @@
   margin-left: 120rpx;
 }
 
-.cont_container {
+.content_container {
   word-break: break-all;
   margin: 60rpx 0;
 }

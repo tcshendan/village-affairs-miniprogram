@@ -1,0 +1,110 @@
+/* miniprogram/page/engineering_detail/index.wxss */
+.detail_container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #eceff0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.detail_title {
+  margin: 40rpx;
+  font-size: 32rpx;
+  font-weight: bold;
+  line-height: 60rpx;
+  color: #1a2236;
+  text-align: center;
+  word-break: break-all;
+}
+
+.mgbtm {
+  margin-bottom: 50rpx;
+}
+
+.cells {
+  background-color: #fff;
+  line-height: 1.41176471;
+  font-size: 34rpx;
+  overflow: hidden;
+  position: relative;
+}
+
+.cell {
+  padding: 20rpx 30rpx;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.cell::before {
+  content: " ";
+  position: absolute;
+  left: 30rpx;
+  top: 0;
+  right: 30rpx;
+  height: 1px;
+  border-top: 1px solid #d9d9d9;
+  color: #d9d9d9;
+  transform-origin: 0 0;
+  transform: scaleY(.5);
+}
+
+.cell_primary {
+  flex: 1;
+}
+
+.cell_ft {
+  text-align: right;
+  color: #999;
+}
+
+.c_title {
+  color: #8890a7;
+}
+
+.m_title {
+  position: relative;
+  font-weight: 700;
+  color: #111;
+ }
+
+.m_title::before {
+  content: "";
+  position: absolute;
+  right: -10rpx;
+  bottom: -20rpx;
+  left: -10rpx;
+  border-bottom: 2px solid #a42e2e;
+}
+
+.m_text {
+  color: #242c43;
+}
+
+.image_list {
+  width: 100%;
+}
+
+.images_box {
+  display: inline-block;
+  vertical-align: middle;
+  width: calc(33.33% - 20rpx);
+  font-size: 0;
+  margin: 0 10rpx;
+}
+
+.images_box image {
+  width: 142rpx;
+  height: 106rpx;
+}
+
+.sgxx_container:not(:first-of-type) {
+  margin-top: 20px;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.cells .cell:first-child::before,
+.sgxx_container .cell:first-child::before {
+  border-top: none;
+}

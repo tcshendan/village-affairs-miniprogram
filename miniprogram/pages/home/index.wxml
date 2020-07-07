@@ -1,6 +1,6 @@
 <!--miniprogram/pages/home/index.wxml-->
-<view class="home_container">
-  <view class="list_container" style="height: 100%;">
+<view class="list_container">
+  <view class="home_container" style="height: 100%;">
     <view class="home_banner">
       <image src="/images/home/img_banner.jpg" />
     </view>
@@ -19,13 +19,13 @@
     <view class="home_wbine" style="margin-top: 40rpx; margin-bottom: 40rpx;">
       <view class="home_nbine">
         <view class="grids bottom">
-          <view class="grid-item">
+          <view class="grid-item" data-url="{{ROUTES.SITUATION_PAGE}}" bindtap="onTurnItemPage">
             <image src="/images/home/grid-item-1.png" />
           </view>
           <view class="grid-item">
             <image src="/images/home/grid-item-2.png" />
           </view>
-          <view class="grid-item">
+          <view class="grid-item" data-url="{{ROUTES.ENGINEERING_PAGE}}" bindtap="onTurnItemPage">
             <image src="/images/home/grid-item-3.png" />
           </view>
         </view>
