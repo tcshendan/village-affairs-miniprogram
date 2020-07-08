@@ -1,4 +1,8 @@
 /**app.wxss**/
+@import '/styles/iconfont.wxss';
+@import '/styles/loading.wxss';
+@import '/miniprogram_npm/weui-miniprogram/weui-wxss/dist/style/weui.wxss';
+
 /* .container {
   height: 100%;
   display: flex;
@@ -12,7 +16,7 @@
 .list_container {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  /* height: 100vh; */
   min-height: 100vh;
   background: #eceff0;
   box-sizing: border-box;

@@ -30,13 +30,13 @@
           </view>
         </view>
         <view class="grids bottom">
-          <view class="grid-item">
+          <view class="grid-item" data-url="{{ROUTES.NEWS_PAGE}}" bindtap="onTurnItemPage">
             <image src="/images/home/grid-item-4.png" />
           </view>
-          <view class="grid-item">
+          <view class="grid-item" data-url="{{ROUTES.INTERACTION_PAGE}}" bindtap="onTurnItemPage">
             <image src="/images/home/grid-item-5.png" />
           </view>
-          <view class="grid-item">
+          <view class="grid-item" data-url="{{ROUTES.COMPLAINT_PAGE}}" bindtap="onTurnItemPage">
             <image src="/images/home/grid-item-6.png" />
           </view>
         </view>

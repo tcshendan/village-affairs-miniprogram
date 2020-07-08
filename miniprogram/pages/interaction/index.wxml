@@ -1,0 +1,47 @@
+<!--miniprogram/pages/interaction/index.wxml-->
+<view class="container">
+  <view class="black"></view>
+  <view class="phone_box">
+    <view style="display: flex;align-items: center;">
+      <view class="phone_img"></view>
+      <view class="phone_text">互动热线  6298559</view>
+    </view>
+    <view class="phone_call">拨打电话</view>
+  </view>
+  <view class="black"></view>
+  <view class="cells">
+    <view class="cell">
+      <view class="cell_hd"></view>
+      <view class="cell_bd cell_primary">
+        <input class="weui-input" placeholder="请输入姓名（必填）" />
+      </view>
+    </view>
+    <view class="cell">
+      <view class="cell_hd"></view>
+      <view class="cell_bd cell_primary">
+        <input class="weui-input" placeholder="请输入你的手机号码（必填）" />
+      </view>
+    </view>
+    <view class="cell">
+      <view class="cell_hd"></view>
+      <view class="cell_bd cell_primary">
+        <textarea class="weui-textarea" placeholder="请输入要反应的情况（必填）" />
+        <view class="textarea-counter">0/200</view>
+      </view>
+    </view>
+    
+  </view>
+  <view class="setImgPic">
+    <view class="setImgPic_tit">相关图片</view>
+    <view class="uploader_con">
+      <mp-uploader upload="{{uplaodFile}}"></mp-uploader>
+    </view>
+  </view>
+  <view class="setImgPic">
+    <button type="warn" class="setImgPic_btn">提交</button>
+    <view class="setImgPic_con" style="border-top: none;">
+      <view>为便于接收反馈,请留下真实手机号码</view>
+      <view>我们将在15个工作日内给您答复</view>
+    </view>
+  </view>
+</view>

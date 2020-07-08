@@ -1,0 +1,18 @@
+<!--miniprogram/pages/news_detail/index.wxml-->
+<view class="detail_container">
+  <view class="text_center">清廉乡村调研活动</view>
+  <view class="flexbox flex_row">
+    <view class="flexbox_item xsd_info xsd_text_right" style="margin-left: 8px;">清廉动态</view>
+    <view class="flexbox_item xsd_info" style="margin-left: 8px;">2020-05-06</view>
+  </view>
+  <!-- 轮播图 -->
+  <view class="swiper_container">
+    <cmp-swiper
+      swiperImages="{{swiperImages}}"
+      autoplay="{{autoplay}}"
+      interval="{{interval}}"
+      duration="{{duration}}"
+    />
+  </view>
+  <view class="gkp">4月24日上午，省纪委副书记暨军民、市委常委、市纪委书记梁雪东、县委书记周卫兵一行来青草坞村调研工作，暨书记一行现场查看了村文化礼堂、村官志文化墙、集体经济项目以及村庄环境等，对低收入农户进行了走访。镇纪委书记钱永权就清廉乡村、村务e点通工作进行汇报，村书记吴世龙对青草坞村党建工作、美丽乡村、清廉文化、集体经济发展、新时代文明实践等工作进行了介绍。县委常委、县纪委书记沈月强、镇党委书记尹明英陪同调研。</view>
+</view>

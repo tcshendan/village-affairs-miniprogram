@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "#ac3d0a",
+  "navigationBarTitleText": "动态详情",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "cmp-swiper": "/components/cmp-swiper/index"
+  }
+}

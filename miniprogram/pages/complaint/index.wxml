@@ -1,0 +1,36 @@
+<!--miniprogram/pages/complaint/index.wxml-->
+<view class="container">
+  <view class="setImgPic" style="padding-bottom: 40rpx; padding-top: 10rpx;">
+    <view class="jbpt">
+      <text class="jbpt_text">投诉举报平台</text>
+    </view>
+    <view class="jbpt_info">
+      <view class="setFont">
+        <view>李家巷镇纪委投诉电话:6601128、6061149</view>
+
+        <view>县纪委举报电话:0572-12388</view>
+
+        <view>来信请寄:李家巷镇纪委、长兴县纪委监委信访室</view>
+
+        <view>来访请到:李家巷镇纪委1楼办公室</view>
+
+        <view>长兴县行政中心B座13楼1301室（信访接待室）</view>
+      </view>
+    </view>
+  </view>
+  <view class="bottom_pic">
+    <view class="erwm">
+      <view class="erwm_box">
+        <image src="/images/pictures/erwm-l.png" />
+        <view>清廉长兴</view>
+      </view>
+      <view class="erwm_box">
+        <image src="/images/pictures/erwm-r.png" />
+        <view>掌心长兴</view>
+      </view>
+    </view>
+    <view class="bg_img">
+      <image src="/images/pictures/jbpt.png"></image>
+    </view>
+  </view>
+</view>

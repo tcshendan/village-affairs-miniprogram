@@ -1,0 +1,84 @@
+/* miniprogram/pages/complaint/index.wxss */
+.setImgPic {
+  padding: 0 30rpx;
+  box-sizing: border-box;
+}
+
+.jbpt {
+  font-size: 28rpx;
+  color: #1a2236;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ebedf4;
+}
+
+.jbpt_text {
+  display: block;
+  width: 180rpx;
+  padding: 10rpx 0;
+  border-bottom: 2px solid #a42e2e;
+  font-weight: 600;
+}
+
+.jbpt_info {
+  padding-top: 10rpx;
+  padding-bottom: 10rpx;
+  color: #999;
+  font-size: 28rpx;
+}
+
+.setFont {
+  width: 100%;
+  min-height: 380rpx;
+  border: none;
+  background: #fff;
+  font: 600 13.3333px Microsoft YaHei;
+  color: #242c43;
+  margin-top: 20rpx;
+}
+
+.setFont > view {
+  line-height: 2.8;
+}
+
+.bottom_pic {
+  width: 100%;
+  height: 580rpx;
+  position: absolute;
+  bottom: 0;
+  background-color: #f0eff6;
+}
+
+.erwm {
+  display: flex;
+  height: 260rpx;
+}
+
+.erwm_box {
+  flex: 1;
+  height: 100%;
+  padding-top: 20rpx;
+  text-align: center;
+}
+
+.erwm_box > view {
+  font-size: 28rpx;
+}
+
+.erwm_box image {
+  display: inline-block;
+  width: 200rpx;
+  height: 200rpx;
+}
+
+.bg_img {
+  height: 320rpx;
+  /* background-image: url(../../images/pictures/jbpt.png);
+  background-size: 100%;
+  background-position: bottom; */
+}
+
+.bg_img image {
+  display: block;
+  width: 100%;
+  margin-top: -160rpx;
+}

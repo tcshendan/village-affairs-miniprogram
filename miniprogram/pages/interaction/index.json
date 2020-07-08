@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "#ac3d0a",
+  "navigationBarTitleText": "群众互动",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "mp-uploader": "/miniprogram_npm/weui-miniprogram/uploader/uploader"
+  }
+}

@@ -1,0 +1,108 @@
+<!--miniprogram/pages/news/index.wxml-->
+<view class="list_container">
+  <view class="liststyle" bindtap="onDetail">
+    <view class="news_card">
+      <view class="img_box">
+        <image src="/images/news/news1.jpg"></image>
+      </view>
+      <view class="content_box">
+        <view class="news_title">清廉乡村调研活动</view>
+        <view class="news_info">
+          <text class="state">清廉动态</text>
+          <text class="time">2020-05-06</text>
+        </view>
+      </view>
+      <view class="iconfont icon-repository-zhankaixuanxiangright right_arrow"></view>
+    </view>
+  </view>
+  <view class="liststyle">
+    <view class="news_card">
+      <view class="img_box">
+        <image src="/images/news/news2.jpg"></image>
+      </view>
+      <view class="content_box">
+        <view class="news_title">青草坞村实践站组织村民对垃圾分类积分进行兑换</view>
+        <view class="news_info">
+          <text class="state">清廉动态</text>
+          <text class="time">2020-03-20</text>
+        </view>
+      </view>
+      <view class="iconfont icon-repository-zhankaixuanxiangright right_arrow"></view>
+    </view>
+  </view>
+  <view class="liststyle">
+    <view class="news_card">
+      <view class="img_box">
+        <image src="/images/news/news3.jpg"></image>
+      </view>
+      <view class="content_box">
+        <view class="news_title">青草坞村“吃福”文化活动</view>
+        <view class="news_info">
+          <text class="state">清廉动态</text>
+          <text class="time">2020-03-20</text>
+        </view>
+      </view>
+      <view class="iconfont icon-repository-zhankaixuanxiangright right_arrow"></view>
+    </view>
+  </view>
+  <view class="liststyle">
+    <view class="news_card">
+      <view class="img_box">
+        <image src="/images/news/news4.jpg"></image>
+      </view>
+      <view class="content_box">
+        <view class="news_title">青草坞村实践站志愿者和村夜巡队、镇派出所共同对辖区内出租房进行巡查</view>
+        <view class="news_info">
+          <text class="state">清廉动态</text>
+          <text class="time">2020-03-20</text>
+        </view>
+      </view>
+      <view class="iconfont icon-repository-zhankaixuanxiangright right_arrow"></view>
+    </view>
+  </view>
+  <view class="liststyle">
+    <view class="news_card">
+      <view class="img_box">
+        <image src="/images/news/news5.jpg"></image>
+      </view>
+      <view class="content_box">
+        <view class="news_title">实践站志愿者们全面向村民进行疫情防控宣传</view>
+        <view class="news_info">
+          <text class="state">清廉动态</text>
+          <text class="time">2020-03-20</text>
+        </view>
+      </view>
+      <view class="iconfont icon-repository-zhankaixuanxiangright right_arrow"></view>
+    </view>
+  </view>
+  <view class="liststyle">
+    <view class="news_card">
+      <view class="img_box">
+        <image src="/images/news/news5.jpg"></image>
+      </view>
+      <view class="content_box">
+        <view class="news_title">青草坞村召开2020年长兴县第五届青草坞村文化礼堂“乡村春晚”</view>
+        <view class="news_info">
+          <text class="state">清廉动态</text>
+          <text class="time">2020-03-20</text>
+        </view>
+      </view>
+      <view class="iconfont icon-repository-zhankaixuanxiangright right_arrow"></view>
+    </view>
+  </view>
+  <view class="liststyle">
+    <view class="news_card">
+      <view class="img_box">
+        <image src="/images/news/news5.jpg"></image>
+      </view>
+      <view class="content_box">
+        <view class="news_title">青草坞村的“鸳鸯龙”非遗文化</view>
+        <view class="news_info">
+          <text class="state">清廉动态</text>
+          <text class="time">2020-03-20</text>
+        </view>
+      </view>
+      <view class="iconfont icon-repository-zhankaixuanxiangright right_arrow"></view>
+    </view>
+  </view>
+</view>

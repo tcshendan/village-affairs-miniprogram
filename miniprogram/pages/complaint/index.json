@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "#ac3d0a",
+  "navigationBarTitleText": "投诉举报",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "cmp-swiper": "/components/cmp-swiper/index"
+  }
+}
