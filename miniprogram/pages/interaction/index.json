@@ -3,6 +3,8 @@
   "navigationBarTitleText": "群众互动",
   "navigationBarTextStyle": "white",
   "usingComponents": {
-    "mp-uploader": "/miniprogram_npm/weui-miniprogram/uploader/uploader"
+    "mp-cell": "/miniprogram_npm/weui-miniprogram/cell/cell",
+    "mp-cells": "/miniprogram_npm/weui-miniprogram/cells/cells",
+    "mp-form": "/miniprogram_npm/weui-miniprogram/form/form"
   }
 }

@@ -22,7 +22,7 @@
           <view class="grid-item" data-url="{{ROUTES.SITUATION_PAGE}}" bindtap="onTurnItemPage">
             <image src="/images/home/grid-item-1.png" />
           </view>
-          <view class="grid-item">
+          <view class="grid-item" data-url="{{ROUTES.ATTENTION_PAGE}}" bindtap="onTurnItemPage">
             <image src="/images/home/grid-item-2.png" />
           </view>
           <view class="grid-item" data-url="{{ROUTES.ENGINEERING_PAGE}}" bindtap="onTurnItemPage">

@@ -18,7 +18,7 @@ Page({
       url: ROUTES.REPORT_PAGE
     })
   },
-  onTurnItemPage(e: { currentTarget: any }) {
+  onTurnItemPage(e: { currentTarget: { dataset: { url: string } } }) {
     const url = e.currentTarget.dataset.url
     wx.navigateTo({
       url

@@ -9,7 +9,8 @@ const ROUTES = {
   NEWS_PAGE: '/pages/news/index',
   NEWS_DETAIL_PAGE: '/pages/news_detail/index',
   COMPLAINT_PAGE: '/pages/complaint/index',
-  INTERACTION_PAGE: '/pages/interaction/index'
+  INTERACTION_PAGE: '/pages/interaction/index',
+  ATTENTION_PAGE: '/pages/attention/index'
 }
 
 export { ROUTES }

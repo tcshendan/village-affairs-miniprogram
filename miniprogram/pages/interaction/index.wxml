@@ -9,36 +9,46 @@
     <view class="phone_call">拨打电话</view>
   </view>
   <view class="black"></view>
-  <view class="cells">
-    <view class="cell">
-      <view class="cell_hd"></view>
-      <view class="cell_bd cell_primary">
-        <input class="weui-input" placeholder="请输入姓名（必填）" />
-      </view>
-    </view>
-    <view class="cell">
-      <view class="cell_hd"></view>
-      <view class="cell_bd cell_primary">
-        <input class="weui-input" placeholder="请输入你的手机号码（必填）" />
-      </view>
-    </view>
-    <view class="cell">
-      <view class="cell_hd"></view>
-      <view class="cell_bd cell_primary">
-        <textarea class="weui-textarea" placeholder="请输入要反应的情况（必填）" />
-        <view class="textarea-counter">0/200</view>
-      </view>
-    </view>
-    
-  </view>
+  <!-- 表单 -->
+  <mp-form id="form" rules="{{rules}}" models="{{formData}}">
+    <mp-cells ext-class="my-cells">
+      <mp-cell prop="name">
+        <input bindinput="onFormInputChange" data-field="name" class="weui-input" placeholder="请输入姓名（必填）" />
+      </mp-cell>
+      <mp-cell prop="phone">
+        <input bindinput="onFormInputChange" data-field="phone" class="weui-input" placeholder="请输入你的手机号码（必填）" />
+      </mp-cell>
+      <mp-cell prop="situation">
+        <textarea bindinput="onFormInputChange" data-field="situation" class="weui-textarea" placeholder="请输入要反应的情况（必填）" maxlength="200" style="height: 4.24em" />
+        <view class="weui-textarea-counter">0/200</view>
+      </mp-cell>
+    </mp-cells>
+  </mp-form>
   <view class="setImgPic">
     <view class="setImgPic_tit">相关图片</view>
     <view class="uploader_con">
-      <mp-uploader upload="{{uplaodFile}}"></mp-uploader>
+      <view class="weui-uploader">
+        <view class="weui-uploader__files">
+          <block wx:for="{{files}}" wx:for-item="file" wx:key="index">
+            <view class="weui-uploader__file">
+              <view class="close" data-index="{{index}}" bindtap="removeImage"></view>
+              <image 
+                class="weui-uploader__img"
+                src="{{file.url}}"
+                data-src="{{file.url}}"
+                bindtap="previewImage"
+              ></image>
+            </view>
+          </block>
+        </view>
+        <view class="weui-uploader__input-box">
+          <view class="weui-uploader__input" bindtap="chooseImage"></view>
+        </view>
+      </view>
     </view>
   </view>
   <view class="setImgPic">
-    <button type="warn" class="setImgPic_btn">提交</button>
+    <button class="setImgPic_btn" type="warn" bindtap="onSubmitForm">提交</button>
     <view class="setImgPic_con" style="border-top: none;">
       <view>为便于接收反馈,请留下真实手机号码</view>
       <view>我们将在15个工作日内给您答复</view>

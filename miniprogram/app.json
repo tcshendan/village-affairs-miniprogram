@@ -12,7 +12,8 @@
     "pages/news/index",
     "pages/news_detail/index",
     "pages/complaint/index",
-    "pages/interaction/index"
+    "pages/interaction/index",
+    "pages/attention/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
