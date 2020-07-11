@@ -1,0 +1,22 @@
+.flexbox {
+  width: 100%;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flex_row {
+  flex-direction: row;
+}
+
+.flexbox_item {
+  flex: 1;
+  min-width: 40rpx;
+  width: 0;
+}
+
+.flexbox_item:first-child {
+  margin-left: 0!important;
+  margin-top: 0!important;
+}

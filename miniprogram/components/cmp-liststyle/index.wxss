@@ -1,0 +1,26 @@
+/* components/cmp-liststyle/index.wxss */
+@import '/styles/liststyle.wxss';
+
+.titleText {
+  font-size: 36rpx;
+  color: #333;
+  margin: 16rpx 0;
+  line-height: 48rpx;
+}
+
+.titleText.titleText2 {
+  font-size: 30rpx;
+  margin-top: 20rpx;
+  line-height: 40rpx;
+}
+
+.datetab, .typetab {
+  line-height: 38rpx;
+  font-size: 28rpx;
+  color: #999;
+}
+
+.typetab {
+  width: 62%;
+  padding: 20rpx 0;
+}

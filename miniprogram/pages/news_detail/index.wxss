@@ -1,4 +1,6 @@
 /* miniprogram/pages/news_detail/index.wxss */
+@import '/styles/flexbox.wxss';
+
 .detail_container {
   display: flex;
   flex-direction: column;
@@ -15,29 +17,6 @@
   font-size: 1.5em;
   font-weight: 400;
   line-height: 80rpx;
-}
-
-.flexbox {
-  width: 100%;
-  text-align: left;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.flex_row {
-  flex-direction: row;
-}
-
-.flexbox_item {
-  flex: 1;
-  min-width: 40rpx;
-  width: 0;
-}
-
-.flexbox_item:first-child {
-  margin-left: 0!important;
-  margin-top: 0!important;
 }
 
 .xsd_info {

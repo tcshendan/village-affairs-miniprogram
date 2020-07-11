@@ -1,2 +1,36 @@
 <!--miniprogram/pages/attention/index.wxml-->
-<text>miniprogram/pages/attention/index.wxml</text>
+<view class="container">
+  <view class="tab-container">
+    <view class="tab">
+      <block wx:for="{{topTabs}}" wx:key="index">
+        <view
+          class="tab-item tab-center {{ activeTopTab == index ? 'tab-selected' : ''}}"
+          data-index="{{index}}"
+          bindtap="onTopTabClick"
+        >{{item.name}}</view>
+      </block>
+      <view
+        class="tab-ink-bar tab-ink-bar-transition-backward"
+        style="display: block;height: 2px;background: rgb(252, 55, 140);left: {{barLeft}};right: {{barRight}};"
+      ></view>
+    </view>
+  </view>
+  <cmp-tabs 
+    tabs="{{tabs}}" 
+    activeTab="{{activeTab}}" 
+    swiperClass="weui-tabs-swiper"
+    bindtabclick="onTabClick"
+    activeClass="tab-bar-title__selected"
+    duration="{{0}}"
+  >
+    <block wx:for="{{tabs}}" wx:key="title">
+      <view class="tab-content" slot="tab-content-{{index}}">
+        <view class="listContainer">
+          <block wx:for="{{list}}" wx:key="index">
+            <cmp-liststyle item="{{item}}" />
+          </block>
+        </view>
+      </view>
+    </block>
+  </cmp-tabs>
+</view>

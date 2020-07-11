@@ -4,6 +4,19 @@ interface IRequestData extends IPageData {
   keywords?: string
 }
 
+export interface IPartyWorkItemData {
+  liststyle: number,
+  title?: string,
+  name?: string,
+  titleText?: string
+  type: string,
+  date: string
+}
+
+export interface IPartyWorkListData {
+  [propName: string]: IPartyWorkItemData[]
+}
+
 export default class HomeModel extends Request {
   constructor() {
     super()
@@ -28,6 +41,12 @@ export default class HomeModel extends Request {
         pageSize,
         keywords
       }
+    })
+  }
+
+  getPartyWorkList(): Promise<IPartyWorkListData> {
+    return this.request({
+      url: '/getPartyWorkList'
     })
   }
 
