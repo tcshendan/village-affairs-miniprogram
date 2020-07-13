@@ -24,4 +24,15 @@ export default class AttentionModel extends Request {
     })
   }
 
+  getVillageWorkList(): Promise<IPartyWorkListData> {
+    return this.request({
+      url: '/getVillageWorkList'
+    })
+  }
+
+  getFinanceWorkList(): Promise<IPartyWorkListData> {
+    return this.request({
+      url: '/getFinanceWorkList'
+    })
+  }
 }

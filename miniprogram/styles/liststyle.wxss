@@ -1,3 +1,5 @@
+@import '/styles/iconfont.wxss';
+
 .liststyle {
   position: relative;
   border-radius: 2px;
@@ -66,4 +68,16 @@
   height: 60rpx;
   font-size: 36rpx;
   color: #999;
+}
+
+.liststyle3 {
+  padding: 20rpx;
+}
+
+.liststyle3 .content_box {
+  padding-left: 0;
+}
+
+.liststyle3 .news_card {
+  padding: 20rpx;
 }

@@ -16,10 +16,23 @@
 </view>
 
 <view class="liststyle" wx:if="{{item.liststyle==2}}">
-  <view class="titleText">{{item.name}}</view>
+  <view class="titleText">{{item.title}}</view>
   <view class="titleText titleText2">{{item.titleText}}</view>
   <view style="display: flex; align-items: center;">
     <text class="typetab">{{item.type}}</text>
     <span class="datetab">{{item.date}}</span>
+  </view>
+</view>
+
+<view class="liststyle liststyle3" wx:if="{{item.liststyle==3}}">
+  <view class="news_card">
+    <view class="content_box">
+      <view class="news_title">{{item.title}}</view>
+      <view class="news_info">
+        <text class="state">{{item.type}}</text>
+        <text class="time">{{item.date}}</text>
+      </view>
+    </view>
+    <view class="iconfont icon-repository-zhankaixuanxiangright right_arrow"></view>
   </view>
 </view>

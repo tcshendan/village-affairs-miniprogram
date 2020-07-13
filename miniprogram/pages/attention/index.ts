@@ -60,10 +60,18 @@ Page({
     const { barLeft, barRight, titles } = map.get(index)
     this.setData({
       activeTopTab: index,
+      activeTab: 0,
       barLeft,
       barRight,
       tabs: this.generateTabs(titles)
     })
+    if (index === 0) {
+      this.loadPartyWorkList()
+    } else if (index === 1) {
+      this.loadVillageWorkList()
+    } else if (index === 2) {
+      this.loadFinanceWorkList()
+    }
   },
   onTabClick(e: TabEvent) {
     const index = e.detail!.index
@@ -86,4 +94,26 @@ Page({
       console.log(err)
     }
   },
+  async loadVillageWorkList() {
+    try {
+      const totalData = await new AttentionModel().getVillageWorkList()
+      this.setData({
+        totalData,
+        list: totalData[this.data.activeTab]
+      })
+    } catch (err) {
+      console.log(err)
+    }
+  },
+  async loadFinanceWorkList() {
+    try {
+      const totalData = await new AttentionModel().getFinanceWorkList()
+      this.setData({
+        totalData,
+        list: totalData[this.data.activeTab]
+      })
+    } catch (err) {
+      console.log(err)
+    }
+  }
 })
